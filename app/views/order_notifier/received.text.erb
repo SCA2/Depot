@@ -1,0 +1,15 @@
+Dear <%= @order.name %>
+
+Thank you for your order, we appreciate your business.
+
+You ordered the following items:
+
+<%= render @order.line_items -% >
+
+We'll send a tracking number to this e-mail address when your order ships.
+
+If you have questions about order status, please direct them to sales@seventhcircleaudio.com.
+
+Best regards,
+
+Seventh Circle Audio
