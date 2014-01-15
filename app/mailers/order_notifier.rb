@@ -1,4 +1,5 @@
 class OrderNotifier < ActionMailer::Base
+  
   default from: 'Sales <sales@seventhcircleaudio.com>'
 
   # Subject can be set in your I18n file at config/locales/en.yml
